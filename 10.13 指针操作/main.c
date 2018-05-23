@@ -9,7 +9,7 @@
  指针操作
  C提供了一些基本的指针操作，下面是8中不同操作，为了显示每种操作的结果，改程序打印了指针的值（该指针指向的地址），存储在指针指向地址上的值，以及指针自己的地址
  
- 以下是8中基本操作
+ 以下是8中基本操作  这城市那么空
  */
 #include <stdio.h>
 
@@ -27,7 +27,7 @@ int main(int argc, const char * argv[]) {
     ptr3 = ptr1 +4;
     printf("\nadding an  int to a pointer:\n");
     printf("ptr1 + 4 = %p, *(ptr1 +4 ) = %d,&urn[4] == %d\n",ptr1+4,*(ptr1 + 4),urn[4]);
-    printf("ptr1 + 2 = %p, *(ptr1 +2 ) = %d\n",ptr1+2,*(ptr1 + 2));
+//    printf("ptr1 + 2 = %p, *(ptr1 +2 ) = %d\n",ptr1+2,*(ptr1 + 2));
     
     ptr1++;  //递增指针
     printf("\nvalues after ptr1++ :\n");
