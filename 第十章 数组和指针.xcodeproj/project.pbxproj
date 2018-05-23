@@ -11,6 +11,7 @@
 		F613490420AD6C0F00B0A900 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F613490320AD6C0F00B0A900 /* main.c */; };
 		F613490F20AD8C4F00B0A900 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F613490E20AD8C4F00B0A900 /* main.c */; };
 		F613E86520B593EF001195A3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F613E86420B593EF001195A3 /* main.c */; };
+		F613E87020B597B7001195A3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F613E86F20B597B7001195A3 /* main.c */; };
 		F616D9D120A577410068118C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F616D9D020A577410068118C /* main.c */; };
 		F643CB5B20ABE00B009D12F9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F643CB5A20ABE00B009D12F9 /* main.c */; };
 		F643CB6620AC337B009D12F9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F643CB6520AC337B009D12F9 /* main.c */; };
@@ -45,6 +46,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		F613E86020B593EF001195A3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F613E86B20B597B7001195A3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -91,6 +101,8 @@
 		F613490E20AD8C4F00B0A900 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F613E86220B593EF001195A3 /* 10.6.1 处理数组的函数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10.6.1 处理数组的函数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F613E86420B593EF001195A3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F613E86D20B597B7001195A3 /* 10.7 指针和多维数组 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10.7 指针和多维数组"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F613E86F20B597B7001195A3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F616D9CD20A577410068118C /* 第十章 数组和指针 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第十章 数组和指针"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F616D9D020A577410068118C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F643CB5820ABE00B009D12F9 /* 10.8 pnt_add.c 程序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10.8 pnt_add.c 程序"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +134,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F613E85F20B593EF001195A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F613E86A20B597B7001195A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -184,6 +203,14 @@
 			path = "10.6.1 处理数组的函数";
 			sourceTree = "<group>";
 		};
+		F613E86E20B597B7001195A3 /* 10.7 指针和多维数组 */ = {
+			isa = PBXGroup;
+			children = (
+				F613E86F20B597B7001195A3 /* main.c */,
+			);
+			path = "10.7 指针和多维数组";
+			sourceTree = "<group>";
+		};
 		F616D9C420A577410068118C = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +221,7 @@
 				F613490D20AD8C4F00B0A900 /* 10.11 数组元素之和 */,
 				F60BFC2C20AED02B00E17262 /* 10.13 指针操作 */,
 				F613E86320B593EF001195A3 /* 10.6.1 处理数组的函数 */,
+				F613E86E20B597B7001195A3 /* 10.7 指针和多维数组 */,
 				F616D9CE20A577410068118C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -208,6 +236,7 @@
 				F613490C20AD8C4F00B0A900 /* 10.11 数组元素之和 */,
 				F60BFC2B20AED02B00E17262 /* 10.13 指针操作 */,
 				F613E86220B593EF001195A3 /* 10.6.1 处理数组的函数 */,
+				F613E86D20B597B7001195A3 /* 10.7 指针和多维数组 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -307,6 +336,23 @@
 			productReference = F613E86220B593EF001195A3 /* 10.6.1 处理数组的函数 */;
 			productType = "com.apple.product-type.tool";
 		};
+		F613E86C20B597B7001195A3 /* 10.7 指针和多维数组 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F613E87120B597B7001195A3 /* Build configuration list for PBXNativeTarget "10.7 指针和多维数组" */;
+			buildPhases = (
+				F613E86920B597B7001195A3 /* Sources */,
+				F613E86A20B597B7001195A3 /* Frameworks */,
+				F613E86B20B597B7001195A3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "10.7 指针和多维数组";
+			productName = "10.7 指针和多维数组";
+			productReference = F613E86D20B597B7001195A3 /* 10.7 指针和多维数组 */;
+			productType = "com.apple.product-type.tool";
+		};
 		F616D9CC20A577410068118C /* 第十章 数组和指针 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F616D9D420A577410068118C /* Build configuration list for PBXNativeTarget "第十章 数组和指针" */;
@@ -383,6 +429,10 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
+					F613E86C20B597B7001195A3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					F616D9CC20A577410068118C = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -416,6 +466,7 @@
 				F613490B20AD8C4F00B0A900 /* 10.11 数组元素之和 */,
 				F60BFC2A20AED02B00E17262 /* 10.13 指针操作 */,
 				F613E86120B593EF001195A3 /* 10.6.1 处理数组的函数 */,
+				F613E86C20B597B7001195A3 /* 10.7 指针和多维数组 */,
 			);
 		};
 /* End PBXProject section */
@@ -450,6 +501,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F613E86520B593EF001195A3 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F613E86920B597B7001195A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F613E87020B597B7001195A3 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,6 +596,22 @@
 			name = Debug;
 		};
 		F613E86720B593EF001195A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F613E87220B597B7001195A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F613E87320B597B7001195A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -730,6 +805,15 @@
 			buildConfigurations = (
 				F613E86620B593EF001195A3 /* Debug */,
 				F613E86720B593EF001195A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F613E87120B597B7001195A3 /* Build configuration list for PBXNativeTarget "10.7 指针和多维数组" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F613E87220B597B7001195A3 /* Debug */,
+				F613E87320B597B7001195A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
