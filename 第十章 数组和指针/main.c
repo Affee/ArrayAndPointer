@@ -7,9 +7,13 @@
 //
 
 #include <stdio.h>
+#define MONTHS 12
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    int days[MONTHS] = {31,28,30,30,31,28,30,30,31,28,30,30};
+    
+    for (int i = 0; i < MONTHS ; i++) {
+        printf("Month %2d has %2d days.\n",i+1,days[i]);
+    }
     return 0;
 }
