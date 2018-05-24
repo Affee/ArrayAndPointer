@@ -11,6 +11,7 @@
 int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Hello, World!\n");
-    printf("我是多维数组的啊，嘤嘤嘤，多维数组");
+    printf("我是多维数组的啊，嘤嘤嘤，多维数组\n");
+    printf("真的是如此之难嘛");
     return 0;
 }
